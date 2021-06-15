@@ -1,2 +1,15 @@
-[0m[[0m[0mdebug[0m] [0m[0mdownloaded https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.13/1.5.5/compiler-bridge_2.13-1.5.5.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0mdownloaded https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.13/1.5.5/compiler-bridge_2.13-1.5.5-sources.jar[0m
+[debug] downloaded https://repo1.maven.org/maven2/com/twitter/hpack/1.0.2/hpack-1.0.2-sources.jar
+[debug] downloaded https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.5.23/akka-stream_2.13-2.5.23-sources.jar
+[debug] downloaded https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.13/2.5.23/akka-protobuf_2.13-2.5.23-sources.jar
+[debug] downloaded https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.13/10.2.4/akka-http_2.13-10.2.4-sources.jar
+[debug] downloaded https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.13/2.5.23/akka-protobuf_2.13-2.5.23-javadoc.jar
+[debug] downloaded https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.0/ssl-config-core_2.13-0.4.0-javadoc.jar
+[debug] downloaded https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.2.4/akka-parsing_2.13-10.2.4-sources.jar
+[debug] downloaded https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2-javadoc.jar
+[debug] downloaded https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.13/10.2.4/akka-http_2.13-10.2.4-javadoc.jar
+[debug] downloaded https://repo1.maven.org/maven2/com/twitter/hpack/1.0.2/hpack-1.0.2-javadoc.jar
+[debug] downloaded https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.5.23/akka-stream_2.13-2.5.23-javadoc.jar
+[debug] downloaded https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.0/ssl-config-core_2.13-0.4.0-sources.jar
+[debug] downloaded https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.2.4/akka-parsing_2.13-10.2.4-javadoc.jar
+[debug] downloaded https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.2.4/akka-http-core_2.13-10.2.4-sources.jar
+[debug] downloaded https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.2.4/akka-http-core_2.13-10.2.4-javadoc.jar

@@ -10,48 +10,11 @@
 [0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
 [0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/mahesh/play/akka/akka-microservice/target/scala-2.13/classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.5.5:compile for Scala 2.13.6[0m
-[0m[[0m[0minfo[0m] [0m[0mNon-compiled module 'compiler-bridge_2.13' for Scala 2.13.6. Compiling...[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating plain compiler interface for 2.13.6.[0m
-[0m[[0m[0mdebug[0m] [0m[0m  > Arguments: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	-d[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_c/trwyddb57v373s8wbr7qc2ww0000gn/T/sbt_f877f250[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-nowarn[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/Users/mahesh/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/Users/mahesh/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.5.5/compiler-interface-1.5.5.jar:/Users/mahesh/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.5.0/util-interface-1.5.0.jar:/Users/mahesh/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.13/1.5.5/compiler-bridge_2.13-1.5.5-sources.jar:/Users/mahesh/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.6/scala-compiler-2.13.6.jar:/Users/mahesh/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.6/scala-reflect-2.13.6.jar:/Users/mahesh/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.19.0/jline-3.19.0.jar:/Users/mahesh/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_c/trwyddb57v373s8wbr7qc2ww0000gn/T/sbt_bea532e5/scala/ZincCompat.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_c/trwyddb57v373s8wbr7qc2ww0000gn/T/sbt_bea532e5/xsbt/API.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_c/trwyddb57v373s8wbr7qc2ww0000gn/T/sbt_bea532e5/xsbt/AbstractZincFile.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_c/trwyddb57v373s8wbr7qc2ww0000gn/T/sbt_bea532e5/xsbt/Analyzer.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_c/trwyddb57v373s8wbr7qc2ww0000gn/T/sbt_bea532e5/xsbt/CallbackGlobal.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_c/trwyddb57v373s8wbr7qc2ww0000gn/T/sbt_bea532e5/xsbt/ClassName.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_c/trwyddb57v373s8wbr7qc2ww0000gn/T/sbt_bea532e5/xsbt/Compat.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_c/trwyddb57v373s8wbr7qc2ww0000gn/T/sbt_bea532e5/xsbt/CompilerBridge.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_c/trwyddb57v373s8wbr7qc2ww0000gn/T/sbt_bea532e5/xsbt/ConsoleBridge.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_c/trwyddb57v373s8wbr7qc2ww0000gn/T/sbt_bea532e5/xsbt/DelegatingReporter.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_c/trwyddb57v373s8wbr7qc2ww0000gn/T/sbt_bea532e5/xsbt/Dependency.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_c/trwyddb57v373s8wbr7qc2ww0000gn/T/sbt_bea532e5/xsbt/ExtractAPI.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_c/trwyddb57v373s8wbr7qc2ww0000gn/T/sbt_bea532e5/xsbt/ExtractUsedNames.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_c/trwyddb57v373s8wbr7qc2ww0000gn/T/sbt_bea532e5/xsbt/GlobalHelpers.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_c/trwyddb57v373s8wbr7qc2ww0000gn/T/sbt_bea532e5/xsbt/InteractiveConsoleBridge.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_c/trwyddb57v373s8wbr7qc2ww0000gn/T/sbt_bea532e5/xsbt/InteractiveConsoleFactoryBridge.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_c/trwyddb57v373s8wbr7qc2ww0000gn/T/sbt_bea532e5/xsbt/InteractiveConsoleHelper.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_c/trwyddb57v373s8wbr7qc2ww0000gn/T/sbt_bea532e5/xsbt/InteractiveConsoleResponse.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_c/trwyddb57v373s8wbr7qc2ww0000gn/T/sbt_bea532e5/xsbt/JarUtils.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_c/trwyddb57v373s8wbr7qc2ww0000gn/T/sbt_bea532e5/xsbt/JavaUtils.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_c/trwyddb57v373s8wbr7qc2ww0000gn/T/sbt_bea532e5/xsbt/LocalToNonLocalClass.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_c/trwyddb57v373s8wbr7qc2ww0000gn/T/sbt_bea532e5/xsbt/LocateClassFile.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_c/trwyddb57v373s8wbr7qc2ww0000gn/T/sbt_bea532e5/xsbt/Log.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_c/trwyddb57v373s8wbr7qc2ww0000gn/T/sbt_bea532e5/xsbt/Message.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/var/folders/_c/trwyddb57v373s8wbr7qc2ww0000gn/T/sbt_bea532e5/xsbt/ScaladocBridge.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m      [0m
-[0m[[0m[0minfo[0m] [0m[0m  Compilation completed in 5.309s.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 5ec451d8 for Scala compiler version 2.13.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 10dff253 for Scala compiler version 2.13.6[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/Users/mahesh/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/Users/mahesh/play/akka/akka-microservice/target/scala-2.13/classes:/Users/mahesh/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.15/akka-actor-typed_2.13-2.6.15.jar:/Users/mahesh/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/mahesh/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.15/akka-actor_2.13-2.6.15.jar:/Users/mahesh/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.15/akka-slf4j_2.13-2.6.15.jar:/Users/mahesh/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/mahesh/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/mahesh/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0.jar:/Users/mahesh/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/mahesh/play/akka/akka-microservice/target/scala-2.13/classes:/Users/mahesh/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.15/akka-actor-typed_2.13-2.6.15.jar:/Users/mahesh/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/mahesh/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.5.23/akka-stream_2.13-2.5.23.jar:/Users/mahesh/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.13/10.2.4/akka-http_2.13-10.2.4.jar:/Users/mahesh/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.15/akka-actor_2.13-2.6.15.jar:/Users/mahesh/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.15/akka-slf4j_2.13-2.6.15.jar:/Users/mahesh/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/mahesh/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/mahesh/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.13/2.5.23/akka-protobuf_2.13-2.5.23.jar:/Users/mahesh/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.jar:/Users/mahesh/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.0/ssl-config-core_2.13-0.4.0.jar:/Users/mahesh/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.2.4/akka-http-core_2.13-10.2.4.jar:/Users/mahesh/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0.jar:/Users/mahesh/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0.jar:/Users/mahesh/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar:/Users/mahesh/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.2.4/akka-parsing_2.13-10.2.4.jar:/Users/mahesh/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/twitter/hpack/1.0.2/hpack-1.0.2.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0mCompilation failed (CompilerInterface)[0m
 [0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
