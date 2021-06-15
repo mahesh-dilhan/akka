@@ -7,11 +7,13 @@ import akka.http.scaladsl.model._
 
 import scala.concurrent.ExecutionContextExecutor
 import scala.concurrent.Future
+import akka.stream.{ActorMaterializer}
 
 class HttpClientCollectingHeaders {
   def main(args: Array[String]): Unit = {
     implicit val system: ActorSystem = ActorSystem()
     implicit val executionContext: ExecutionContextExecutor = system.dispatcher
+    implicit val materializer: ActorMaterializer = ActorMaterializer()
 
     val responseFuture: Future[HttpResponse] = Http().singleRequest(HttpRequest(uri = "http://akka.io"))
 

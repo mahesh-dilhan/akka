@@ -1,0 +1,9 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/mahesh/play/akka/akka-microservice/target/scala-2.13/akka-microservice_2.13-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	io[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/mahesh/play/akka/akka-microservice/target/scala-2.13/classes/io[0m
+[0m[[0m[0mdebug[0m] [0m[0m	io/flow[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/mahesh/play/akka/akka-microservice/target/scala-2.13/classes/io/flow[0m
+[0m[[0m[0mdebug[0m] [0m[0m	io/flow/HttpClientCollectingHeaders.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/mahesh/play/akka/akka-microservice/target/scala-2.13/classes/io/flow/HttpClientCollectingHeaders.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
