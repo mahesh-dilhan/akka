@@ -1,0 +1,33 @@
+[0m[[0m[0mdebug[0m] [0m[0mAcquiring lock on file /Users/mahesh/play/akka/akka-microservice/project/target/.sbt-compilation-infos/akka-microservice-compile/.sbt-idea-lock ...[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mahesh/play/akka/akka-microservice/src/main/scala/io/flow/Flow.scala:4:13: object http is not a member of package akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.http.scaladsl.Http[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mahesh/play/akka/akka-microservice/src/main/scala/io/flow/Flow.scala:5:13: object http is not a member of package akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.http.scaladsl.model.headers.`Set-Cookie`[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mahesh/play/akka/akka-microservice/src/main/scala/io/flow/Flow.scala:6:13: object http is not a member of package akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.http.scaladsl.model._[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mahesh/play/akka/akka-microservice/src/main/scala/io/flow/Flow.scala:16:32: not found: type HttpResponse[0m
+[0m[[0m[31merror[0m] [0m[0m    val responseFuture: Future[HttpResponse] = Http().singleRequest(HttpRequest(uri = "http://akka.io"))[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mahesh/play/akka/akka-microservice/src/main/scala/io/flow/Flow.scala:16:48: not found: value Http[0m
+[0m[[0m[31merror[0m] [0m[0m    val responseFuture: Future[HttpResponse] = Http().singleRequest(HttpRequest(uri = "http://akka.io"))[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mahesh/play/akka/akka-microservice/src/main/scala/io/flow/Flow.scala:16:69: not found: value HttpRequest[0m
+[0m[[0m[31merror[0m] [0m[0m    val responseFuture: Future[HttpResponse] = Http().singleRequest(HttpRequest(uri = "http://akka.io"))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mahesh/play/akka/akka-microservice/src/main/scala/io/flow/Flow.scala:16:81: not found: value uri[0m
+[0m[[0m[31merror[0m] [0m[0m    val responseFuture: Future[HttpResponse] = Http().singleRequest(HttpRequest(uri = "http://akka.io"))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mahesh/play/akka/akka-microservice/src/main/scala/io/flow/Flow.scala:19:23: not found: value HttpResponse[0m
+[0m[[0m[31merror[0m] [0m[0m      case response @ HttpResponse(StatusCodes.OK, _, _, _) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mahesh/play/akka/akka-microservice/src/main/scala/io/flow/Flow.scala:19:36: not found: value StatusCodes[0m
+[0m[[0m[31merror[0m] [0m[0m      case response @ HttpResponse(StatusCodes.OK, _, _, _) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mahesh/play/akka/akka-microservice/src/main/scala/io/flow/Flow.scala:20:43: not found: type Set-Cookie[0m
+[0m[[0m[31merror[0m] [0m[0m        val setCookies = response.headers[`Set-Cookie`][0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m10 errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mReleasing lock on file /Users/mahesh/play/akka/akka-microservice/project/target/.sbt-compilation-infos/akka-microservice-compile/.sbt-idea-lock.[0m
